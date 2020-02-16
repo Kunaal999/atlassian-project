@@ -1,0 +1,727 @@
+ body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;  
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0px;
+	padding: 0px;
+	color: #253858;
+}	
+p{
+	color: #42526e;
+	margin: 0px;
+	padding: 0px;
+}
+@media screen and (min-width: 769px){
+	.container-wrapper-1{
+		display: flex;
+	}
+	.heading-wrapper {
+		align-self: center;
+	}
+	.container-1{
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	.CTA-2{
+		border: 1px solid blue;
+	   background: blue;
+	   padding: 6px 9px;
+	   color: white;
+	   font-size: 1em;
+	   font-weight: bold;
+	}
+	.container-wrapper-2{
+		display: flex;
+    	align-items: center;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 2em 0em;
+	}
+	.img-wrapper .jsw-header{
+		width: 100%;
+	 }
+	.introducing-roadmaps-images .introducing-roadmaps{
+		width: 260px;
+	}
+	.roadmap-heading-wrapper {
+		padding-bottom: 2em;
+		padding: 0px 3em;
+	}
+	.CTA-3{
+		border: 1px solid blue;
+		background: none;
+		padding: 6px 9px;
+		color: blue;
+		font-size: 1em;
+		font-weight: bold;	
+	}
+	 .container-2 {
+		background-color: whitesmoke;
+		padding: 0px 30px;
+	}
+	.navigate-wrapper {
+		max-width: 1400px;
+		display: flex;
+		margin: 0 auto;
+	}
+	.img-wrapper .group-5{
+		width: 754.91px;	
+	}
+	.img-wrapper .plan-track{
+		width: 754.91px;
+	}
+	.navigate-point-container {
+		align-self: center;
+		padding-left: 3em;
+		padding-right: 5em;
+	}
+	.navigate-point-wrapper .navigate-point {
+		font-size: 1.5em;
+		color: #253858;
+		margin-bottom: 1em;
+		display: block;
+		font-weight: bold;
+	}
+	.benefits-heading p {
+		font-size: 1.25em;
+		font-weight: 400;
+		padding: 0px 11em;
+	}
+	#benefits-heading h3{
+		font-size: 2.25rem;
+		margin-bottom: 1em;
+	}
+	.benefits-heading {
+		max-width: 1130px;
+		margin: 0 auto;
+		text-align: center;
+		padding: 51px 0em;
+	}
+	.choose-a-workflow{
+		display: flex;
+    	margin-left: 17em;
+	}
+	#workflow-para p{
+		font-size: 1.25em;
+		margin-bottom: 1em;
+	}
+	#workflow-head h4{
+		font-size: 2.25em;
+		color: #56585c;
+		margin-bottom: 1em;
+	}
+	#workflow-head {
+		margin-right: 3em;
+	}
+	.integrate-tools-products {
+		display: flex;
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	.img-wrapper .workflow-images {
+		margin-bottom: 30px;
+		height: 66px;
+	}
+	.img-wrapper .access-module,.img-wrapper .cloud{
+		width: 447.99px;
+	}
+	.security-step-container{
+		display: flex;
+	}
+	.security-step-container {
+		display: flex;
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+	.security-step-heading {
+		padding-right: 6em;
+	}
+	#jira-software-privacy-heading{
+		display: flex;
+		padding: 4em 0em;
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	.privacy-container {
+		margin-right: 3em;
+	}
+	.Extent-Jira-Software-wrapper{
+		margin: 0 auto;
+    	display: flex;
+   	 	max-width: 1000px;
+    	padding-top: 5em;
+	}
+	.build-atlassian-img-wrapper {
+		text-align: center;
+		margin-right: 3em;
+	}
+	#Extent-Jira-Software p {
+		font-size: 1.25em;
+		margin-bottom: 1.5em;
+	}
+	#Extent-Jira-Software h4 {
+		font-size: 1.5em;
+		margin-bottom: 1.5em;
+	}
+	#trulia-wrapper {
+		background-color: whitesmoke;
+		padding: 24px 20em;
+	}
+	.img-wrapper .jira-trulia-customer{
+		width: 463px;
+	}
+	.trulia-customer-wrapper{
+		display: flex;
+		background-color: white;
+	}
+	.img-wrapper .trulia-logo{
+		width: 100px;
+		margin-bottom: 2em;
+	}
+	.trulia-heading .jira-software-para{
+		font-size: 1.5em;
+		margin-bottom: 1em;
+	}
+	.trulia-heading-wrapper {
+		padding: 2em;
+	}
+	.img-wrapper .partner-logo{
+		width: 100%;
+	}
+	.trulia-partners {
+		padding: 5em 0em;
+	}
+	.trulia-heading a{
+		margin-top: 1em;
+    	display: block;
+	}
+	.plan-free-wrapper, .plan-standard-wrapper, .plan-premium-wrapper {
+		border: 1px solid #F4F5F7;
+		box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+		text-align: center;
+		margin-bottom: 2em;
+		width: 400px;
+	}
+	#plan-wrapper {
+		padding: 0px 13px;
+		padding-top: 4em;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	#offer-wrapper {
+		border: 1px solid #F4F5F7;
+		box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+		margin: 0px 85px;
+		padding: 2em;
+		margin-bottom: 5em;
+	}
+	.featured-row {
+		margin-bottom: 2em;
+		margin-right: 4em;
+	}
+	.featured-wrapper {
+		display: flex;
+	}
+	.jira-fearture-wrapper {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	#feature-heading h5 {
+		font-size: 2.25em;
+		margin-bottom: 15px;
+		color: #253858;
+	}
+	#feature-heading {
+		text-align: center;
+		padding: 2em 13em;
+		margin-bottom: 4em;
+	}
+	#designed-for-security-wrapper {
+		text-align: center;
+		margin-bottom: 1em;
+		padding: 4em 21em;
+	}	  
+}
+
+
+@media screen and (max-width: 768px){
+
+
+ 
+.fas{
+	position: relative;
+	margin-left: 16px
+	cursor: pointer;
+}
+.dropdown{
+	position: relative;
+}
+ content a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	list-style-type: none;
+}
+.dropdown-content a:hover{
+	background-color:whitesmoke; 
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+    left: -11.3em;
+    width: 100%;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+  }
+ .img-wrapper .atlassian-logo{
+ 	width: 200px;
+ }
+.fa-bars {
+    font-size: 2.2em;
+}
+.main-dropdown{
+	display: none;
+    position: fixed;
+    background-color: whitesmoke;
+    width: 100%;
+    left: 0em;
+    height: 100%;
+    top: 0px;
+    z-index: 1;
+}
+.dropdown-logo-wrapper{
+	display: flex;
+    justify-content: space-between;
+	align-items: center;
+	margin: 2em 0em;	
+}
+.fa-times {
+    font-size: 2.5em;
+}
+.close-tag {
+    padding-right: 2em;
+}
+.CTA-1{
+ 	border: 1px solid blue;
+    background: none;
+    padding: 0.3em 0.2em;
+    color: blue;
+    font-size: 0.9em;
+    border-radius: 3px;
+}
+ .CTA-2{
+ 	border: 1px solid blue;
+    background: blue;
+    padding: 6px 9px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+ }
+ .img-wrapper .jsw-header{
+    width: 100%;
+ }
+ .CTA-3{
+    border: 1px solid blue;
+    background: none;
+    padding: 6px 9px;
+    color: blue;
+    font-size: 1em;
+    font-weight: bold;	
+ }
+ .img-wrapper .group-5{
+ 	width: 100%;	
+ }
+ .img-wrapper .plan-track{
+ 	width: 100%;
+ }
+ .menu-wrapper-1{
+ 	display: flex;
+    height: 4em;
+ 	background-color: #F4F5F7;
+ 	width: 100%;
+ }
+ .flex{
+ 	flex: 1;
+ }
+ .search-menu{
+ 	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.container-1 {
+    padding: 0px 13px;
+}
+}
+ .img-wrapper.flex {
+    padding-left: 1em;
+    align-self: center;
+}
+.search-icon-wrapper,.hamburger-menu-wrapper{
+	margin: 0px 1em;
+}
+.menu-wrapper-2{
+	display: flex;
+	height: 4em;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0px 9px 9px -10px;
+}
+.img-wrapper .jira-software-img{
+	width: 100%;
+}
+.jira-software-img-wrapper{
+	display: flex;
+	align-items: center;
+}
+.button-wrapper {
+    margin-right: 13px;
+}
+.heading-wrapper {
+    margin-top: 3em;
+}
+.heading-1 {
+    font-size: 2.2em;
+    margin-bottom: 1em;
+}
+.intr.container-2 {
+    background-color: whitesmoke;
+    padding: 0px 30px;
+}oducing-roadmaps-images .introducing-roadmaps{
+	width: 80%;
+}
+.introducing-roadmaps-images {
+    text-align: center;
+}
+
+.roadmap-heading-wrapper h2{
+	font-size: 18px;
+    line-height: 3em;
+    
+}
+.roadmap-heading-wrapper p{
+	margin-bottom: 2em;
+}
+.roadmap-heading-wrapper {
+    padding-bottom: 2em;
+} 
+.container-3 {
+    padding: 0px 13px;
+    padding-top: 2em;
+    margin-bottom: 5em;
+}
+.benefits-heading h3{
+	font-size: 1.5rem;
+	margin-bottom: 1em;
+}
+.benefits-heading {
+    text-align: center;
+    padding-bottom: 4em;
+}
+.benefits-heading p{
+	font-size: 1.25rem;
+}
+.dashboard{
+	box-shadow: 0px 15px 33px -13px;
+    margin-bottom: 3em;
+}
+.navigate-point-wrapper .navigate-point{
+	font-size: 1.2em;
+    color: #253858;
+    margin-bottom: 1em;
+    display: block;
+    font-weight: bold; 
+}
+.work-status{
+   box-shadow: 0px 15px 33px -13px;
+   margin-bottom: 3em;	
+}
+.navigate-point-wrapper p{
+	margin-bottom: 1em;
+	font-size: 1.25em;
+}
+.container-4,.container-5,.container-6{
+    padding: 0px 13px;	
+}
+.workflow-head h4{
+   font-size: 1.5em;
+   color: #253858;
+   margin-bottom: 1em;
+}
+.workflow-para p{
+	font-size: 1.25em;
+	margin-bottom: 1em;
+}
+.img-wrapper .process{
+	width: 300px
+}
+.process-wrapper{
+	text-align: center;
+}
+.img-wrapper .workflow-images{
+	margin-bottom: 24px;
+    height: 66px;
+}
+.Integrate-tool-heading-wrapper{
+	text-align: center;
+	margin: 2.5em 0em;
+}
+.Integrate-tool-heading-wrapper h4{
+	font-size: 1.5em;
+	margin-bottom: 0.5em
+}
+.Integrate-tool-heading-wrapper p{
+	font-size: 1.25em;
+}
+.workflow-heading span{
+	font-weight: bold;
+    display: block;
+    font-size: 1em;
+    margin-bottom: 14px;
+    color: #253858; 
+}
+.workflow-heading p{
+	font-size: 1.25em;
+	margin-bottom: 14px
+}
+.workflow-heading {
+    margin-bottom: 2em;
+}
+.designed-for-security-wrapper{
+	text-align: center;
+	margin-bottom: 1em;
+	padding-top: 2em;
+}
+.designed-for-security-wrapper h4{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+.security-step-heading span{
+	display: block;
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
+}
+.security-step-heading p{
+	font-size: 1em;
+	margin-bottom: 0.5em;	
+}
+.security-step-heading {
+    margin: 2em 0em;
+}
+.img-wrapper .Privacy-img{
+	width: 40px;
+}
+.jira-software-privacy-heading{
+	padding: 0px 13px; 
+}
+.Privacy-heading-wrapper{
+	padding: 1em 0em;
+}
+.Privacy-heading-wrapper span{
+	display: block;
+	font-size: 1em;
+	margin-bottom: 0.5em;
+}
+.Extent-Jira-Software-container{
+	padding: 0px 13px;	
+}
+.build-atlassian-img-wrapper{
+	text-align: center;
+}
+.build-atlassian-img-wrapper .build-atlassian-img{
+	width: 192px;
+}
+.Extent-Jira-Software {
+    margin: 3em 0em;
+}
+.Extent-Jira-Software h4{
+   font-size: 1.5em;
+   margin-bottom: 0.5em;
+}
+.Extent-Jira-Software p{
+   font-size: 1.25em;
+   margin-bottom: 0.5em;
+}
+.marketplace-img-wrapper {
+    padding-top: 3em;
+}
+.trulia-wrapper{
+	background-color: whitesmoke;
+	padding: 24px 13px;
+}
+.jira-app-img-wrapper .jira-app-img{
+	width: 70px;
+}
+.jira-app-img-wrapper{
+	text-align: center;
+	padding: 1em 0em;
+}
+.move-forward-wrapper{
+	background-color: white;
+    margin-bottom: 2em;
+    padding: 2.5em;
+}
+.move-forward-wrapper h4{
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
+.move-forward-wrapper p{
+	font-size: 1.25em;
+}
+.Move-forward-heading{
+	text-align: center;
+	margin-bottom: 3em;
+}
+.download-img-wrapper .download-img,.google-play-img-wrapper .google-play-img{
+	width: 135px
+}
+.Get-store-icons{
+	display: flex;
+	justify-content: center;
+}
+.download-img-wrapper {
+    margin-right: 1em;
+}
+.Trusted-customer{
+	font-size: 1.25em;
+}
+.trulia-heading {
+    margin-bottom: 3em;
+}
+.plan-free-wrapper,.plan-standard-wrapper,.plan-premium-wrapper{
+	border: 1px solid #F4F5F7;
+	box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	margin-bottom: 2em;
+}
+.container-plan{
+	text-align: center;
+	padding-top: 3em;
+}
+.plan-wrapper{
+	padding: 0px 13px;
+    padding-top: 4em;
+    display: flex;
+	flex-direction: column;
+}
+.plan-heading h4{
+	font-size: 1.	5em;
+}
+.plan-option span{
+	font-size: 1.25em;
+}
+.plan-option{
+	padding: 2em;
+    border-bottom: 1px solid  #F4F5F7;
+}
+.get-started {
+    padding-bottom: 2em;
+}
+.plan-model {
+    padding-top: 2em;
+}
+.plan-model span{
+	font-size: 2em;
+    font-weight: bold;
+    color: #253858;
+    margin-bottom: 0.3em;
+    display: block;
+}
+.plan-model .per-user{
+	font-size: 1.25em;
+    margin-bottom: 2px;
+    color: #42526e;
+}
+.plan-model p{
+	font-size: 14px;
+    margin-bottom: 2em;
+}
+.CTA-Started{
+	border: 1px solid blue;
+    background: none;
+    padding: 6px 13px;
+    color: blue;
+    font-size: 1em;
+    border-radius: 3px;
+    margin-bottom: 1.5em;
+}
+.CTA-try{
+	border: 1px solid blue;
+    background: blue;
+    padding: 6px 14px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+.get-started p{
+	margin-bottom: 0.5em;
+}
+.plan-free-wrapper. {
+    margin-bottom: 2em;
+}
+.get-started a{
+	text-decoration: none;
+}
+.offer-wrapper{
+	border: 1px solid #F4F5F7;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+    margin: 0px 13px;
+	padding: 2em;
+	margin-bottom: 5em;
+}
+.features-img-wrapper .feature-images{
+	width: 42px;
+}
+.jira-fearture-container {
+	padding: 0px 13px;
+}
+.feature-heading {
+    text-align: center;
+	padding: 0px 2em;
+	margin-bottom: 4em;
+}
+.feature-heading h5{
+	font-size: 1.5em;
+	margin-bottom: 15px;
+	color: #253858;
+}
+.feature-heading p{
+	font-size: 1.25em;
+}
+.featured-point span{
+	font-size: 1.25em;
+	color: #253858;
+	display: block;
+    margin-bottom: 1em;
+}
+.featured-row{
+	margin-bottom: 2em;
+}
+.features-img-wrapper {
+    margin-bottom: 1em;
+}
+.container-footer{
+	background-color: whitesmoke;
+}
+.jira-product span, .jira-resources span{
+	display: block;
+}
+.container-footer{
+	display: flex;
+}
+.Jira-product-wrapper {
+    padding-bottom: 3em;
+}
+.jira-product,.jira-resources {
+    padding: 1em 0em;
+}
+.row{
+	flex: 1;
+}
